@@ -7,10 +7,14 @@ Draft or revise schema JSON and create a temporary preview without credentials. 
 Clone this repository into your agent's skills directory using the short skill name:
 
 ```bash
-git clone https://github.com/renderingvideo/renderingvideo-generator.git rv-preview
+git clone https://github.com/renderingvideo/rv-preview.git rv-preview
 ```
 
-Then load `rv-preview/SKILL.md` using your agent's skill discovery workflow. The skill identifier is `rv-preview`. For an existing installation, pull the update and rename the old `renderingvideo-generator` directory to `rv-preview`. The GitHub repository URL remains unchanged.
+Then load `rv-preview/SKILL.md` using your agent's skill discovery workflow. The skill identifier is `rv-preview`. For an existing installation, pull the update and rename the old `renderingvideo-generator` directory to `rv-preview`. Update the existing clone’s Git remote to the renamed repository:
+
+```bash
+git remote set-url origin https://github.com/renderingvideo/rv-preview.git
+```
 
 ## Usage
 
