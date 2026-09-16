@@ -1,9 +1,9 @@
 ---
-name: renderingvideo-generator
+name: rv-preview
 description: Create or revise RenderingVideo schema JSON and validate it through the public preview API without credentials. Returns a temporary preview URL and temp ID; supports the current schema's media, SVG, subtitle, layout, template, and 3D elements.
 ---
 
-# RenderingVideo Public Preview
+# rv-preview
 
 Use this skill when the task needs a public temporary preview. Permanent video tasks, hosted uploads, credit usage and downloadable renders use the authenticated API instead.
 
